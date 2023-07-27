@@ -11,7 +11,6 @@ Allows a user to create new notes and delete them in an html page
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [Tests](#tests)
 - [Questions](#questions)
 - [License](#license)
 
@@ -37,10 +36,6 @@ Demo
 ## Credits
 
 Express.js
-
-## Tests
-
-![test]()
 
 ## Questions
 

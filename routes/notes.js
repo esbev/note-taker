@@ -4,7 +4,7 @@ const notesRouter = express.Router();
 const path = require('path');
 const uniqid = require('uniqid');
 let bodyParser = require('body-parser');
-const dataPath = path.join(__dirname, "../database/db.json");
+const dataPath = path.join(__dirname, "../db/db.json");
 
 let jsonParser = bodyParser.json();
 
