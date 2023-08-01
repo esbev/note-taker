@@ -1,9 +1,10 @@
 const express = require("express");
 const fs = require("fs");
-const notesRouter = express.Router();
+const notesRouter = require('express').Router();
 const path = require('path');
 const uniqid = require('uniqid');
 let bodyParser = require('body-parser');
+
 const dataPath = path.join(__dirname, "../db/db.json");
 
 let jsonParser = bodyParser.json();
@@ -28,7 +29,7 @@ notesRouter.post = ('/api/notes', jsonParser, (req, res) => {
     req.body.id = uniqid();
     savedNotes.push(req.body);
     saveNotes(savedNotes);
-    res.send("Not added!");
+    res.send("Note has not been added!");
 });
 
 notesRouter.delete = () => {};

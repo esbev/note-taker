@@ -9,7 +9,6 @@ Allows a user to create new notes and delete them in an html page
 ## Table of Contents
 - [Preview](#preview)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Credits](#credits)
 - [Questions](#questions)
 - [License](#license)
@@ -20,18 +19,14 @@ Screenshot
 
 ![SS]()
 
-Demo
+Deployed page
 
-![demo]()
+https://git.heroku.com/note-taker-esbev.git
 
 ## Installation
 
     clone the repository: git clone git@github.com:esbev/note-taker
     Install express.js
-
-## Usage
-
-    ??
 
 ## Credits
 

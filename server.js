@@ -4,8 +4,8 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// app.use(express.urlencoded());
 app.use(express.static(path.join(__dirname, 'public')))
+// app.use(express.static('public'));
 app.use(require(path.join(__dirname, 'routes/notes.js')))
 
 app.use( (req, res) => {
@@ -18,6 +18,4 @@ app.get('/', (req, res) => {
 
 app.listen( PORT, () => {
   console.log(`Server running...`);
-// }).catch((err) => {
-//   console.log(err);
 });
