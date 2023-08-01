@@ -17,12 +17,12 @@ const getNotes = () => {
     return JSON.parse(jsonData);
 };
 
-notesRouter.get = ('/api/notes', (req, res) => {
+notesRouter.get('/api/notes', (req, res) => {
     const notes = getNotes();
     res.send(notes);
 });
 
-notesRouter.post = ('/api/notes', jsonParser, (req, res) => {
+notesRouter.post('/api/notes', jsonParser, (req, res) => {
     let savedNotes = getNotes();
     req.body.id = uniqid();
     savedNotes.push(req.body);
