@@ -17,7 +17,7 @@ Allows a user to create new notes and delete them in an html page
 
 Screenshot
 
-![SS]()
+![SS](./images/SS.png)
 
 Deployed page
 
